@@ -1,0 +1,48 @@
+.main-title {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 0.5em;
+    color: #673AB7;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 2em;
+}
+
+.card, .card-full {
+    background-color: #d3d3eb;
+    border: 2px solid #e0e0f0;
+    border-radius: 15px;
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 1.5em;
+    text-decoration: none;
+    display: block;
+    color: #333;
+    margin: 10px auto;
+    box-shadow: 0 4px 8px rgba(224, 7, 7, 0.05);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+
+
+.card:hover, .card-full:hover {
+    background-color: #ede7f6;
+    transform: scale(1.03);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.card-full {
+    width: 100%;
+}
+
+*{
+    background-color: #e7a2a2;
+}
+
+
+
