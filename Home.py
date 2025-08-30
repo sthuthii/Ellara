@@ -50,7 +50,7 @@ with col1:
         </div>
     """, unsafe_allow_html=True)
     if st.button("Go to Daily Log"):
-        st.switch_page("pages/Daily_Log.py")  # adjust path as needed
+        st.switch_page("pages/Daily_log.py")  # adjust path as needed
 
     st.markdown("""
         <div class='card'>
