@@ -9,7 +9,7 @@ st.set_page_config(page_title="PCOS Prediction", layout="centered", initial_side
 st.title("🔍 PCOS Risk Prediction")
 
 model = pickle.load(open("pcos_model.pkl", "rb"))
-show_navbar
+
 
 if "user_id" in st.session_state:
     if st.button("⚡ Predict from My Average Data"):
